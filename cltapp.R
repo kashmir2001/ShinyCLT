@@ -3,9 +3,6 @@ library(ContourFunctions) #for multicolored titles
 # install.packages("lars")
 library(lars)
 
-d<-read.csv("/Users/hudasaeed/Downloads/diabetic_data.csv")
-dim(d)
-table(d$patient_nbr)
 ui <- fluidPage(
   
   # App title ----
